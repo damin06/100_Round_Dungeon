@@ -1,0 +1,274 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 16121 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/user/Documents/GitHub/100_Round_Dungeon
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55643
+Successfully changed project path to: C:/Users/user/Documents/GitHub/100_Round_Dungeon
+C:/Users/user/Documents/GitHub/100_Round_Dungeon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 70.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/100_Round_Dungeon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004477 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (536ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (375ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (83ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004700 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\100_Round_Dungeon\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\100_Round_Dungeon\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Domain Reload Profiling:
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (110.9 KB). Loaded Objects now: 3834.
+Memory consumption went from 116.2 MB to 116.1 MB.
+Total: 4.070500 ms (FindLiveObjects: 0.592400 ms CreateObjectMapping: 0.318700 ms MarkObjects: 3.017300 ms  DeleteObjects: 0.140600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93651.248063 seconds.
+  path: Assets/03_Sprite/FreeSample/FreeContent/SmallChest_02_001.fbx
+  artifactKey: Guid(0d532de0db75c1c4990208d01033d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/FreeContent/SmallChest_02_001.fbx using Guid(0d532de0db75c1c4990208d01033d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90e9a5498aed34ee9368fb461fd3d29') in 0.192629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/03_Sprite/FreeSample/FreeContent/Armor_01_001.fbx
+  artifactKey: Guid(97d5add8e09fe554ca286381fd29864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/FreeContent/Armor_01_001.fbx using Guid(97d5add8e09fe554ca286381fd29864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f30e1c72c789ef250c54cd7fcdb904d') in 0.032131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03_Sprite/FreeSample/FreeContent/Pillar_03_001.fbx
+  artifactKey: Guid(76f7207a12ab8ac48843b1b5653c3cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/FreeContent/Pillar_03_001.fbx using Guid(76f7207a12ab8ac48843b1b5653c3cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a26083b11dc66db2e4addc21d567216') in 0.027840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.958853 seconds.
+  path: Assets/03_Sprite/FreeSample/Textures/Diffuse/BAKE_Props_grp2_DiffuseMap- 4K.png
+  artifactKey: Guid(9ff2fcbb00cf82e4b8d4617dbec3330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/Textures/Diffuse/BAKE_Props_grp2_DiffuseMap- 4K.png using Guid(9ff2fcbb00cf82e4b8d4617dbec3330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc26523e71f24e5c7ef238a25eefb29') in 0.033186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/03_Sprite/FreeSample/Textures/Diffuse/BAKE_Walls_DiffuseMap- 4K.png
+  artifactKey: Guid(202b79982fa1ea74e9f29cb1ac0a59d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/Textures/Diffuse/BAKE_Walls_DiffuseMap- 4K.png using Guid(202b79982fa1ea74e9f29cb1ac0a59d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b67f22fe68dae19e3b9321d65ba473') in 0.018690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.136091 seconds.
+  path: Assets/03_Sprite/FreeSample/FreeContent/Door_03_001.fbx
+  artifactKey: Guid(c186a53f31f8edc4d804d1f6d988fccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/FreeContent/Door_03_001.fbx using Guid(c186a53f31f8edc4d804d1f6d988fccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f185a7d7e54c845149bd40e78cd0866c') in 0.033220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/03_Sprite/FreeSample/FreeContent/SmallChest_02_001.fbx
+  artifactKey: Guid(0d532de0db75c1c4990208d01033d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/FreeContent/SmallChest_02_001.fbx using Guid(0d532de0db75c1c4990208d01033d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a68261cbce68e305aadda12afaeabc5') in 0.038113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/03_Sprite/FreeSample/FreeContent/RedBanner_Small_01_001.fbx
+  artifactKey: Guid(242a997e22c437c4e9a5ab0eaf5e09a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/FreeContent/RedBanner_Small_01_001.fbx using Guid(242a997e22c437c4e9a5ab0eaf5e09a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f8dedb726311ed90151d4ab383652d') in 0.035685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/03_Sprite/FreeSample/FreeContent/SmallChest_Top_02_001.fbx
+  artifactKey: Guid(b25edbc630b44a345b5d01acbee5aef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/FreeContent/SmallChest_Top_02_001.fbx using Guid(b25edbc630b44a345b5d01acbee5aef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4804f22d43c7fa1338f6666ca2f5df') in 0.034807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.624559 seconds.
+  path: Assets/03_Sprite/FreeSample/FreeContent/WallBrick_Tall_01_001.fbx
+  artifactKey: Guid(dad41e8b1f39c38428fde680b63835ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/FreeSample/FreeContent/WallBrick_Tall_01_001.fbx using Guid(dad41e8b1f39c38428fde680b63835ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ad6746fb64e84d00278d4e539ec685') in 0.025694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 424.495385 seconds.
+  path: Assets/03_Sprite/Isometric Free Sample
+  artifactKey: Guid(ed8980340b13f3d47877bb0a6defde17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/Isometric Free Sample using Guid(ed8980340b13f3d47877bb0a6defde17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f88d4d6a2023075bee63567a170ba0b') in 0.005760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.666116 seconds.
+  path: Assets/03_Sprite/Isometric Free Sample/Free Sample
+  artifactKey: Guid(cd7cd291c346b7a40addd0462a35b670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/Isometric Free Sample/Free Sample using Guid(cd7cd291c346b7a40addd0462a35b670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f997726cb87d98e527a13f98905ad1ec') in 0.005627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040855 seconds.
+  path: Assets/03_Sprite/Isometric Free Sample/Free Sample/Armor_01.png
+  artifactKey: Guid(5aee006d7ce0cc849a2f3104617020b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/Isometric Free Sample/Free Sample/Armor_01.png using Guid(5aee006d7ce0cc849a2f3104617020b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cef59cf74b3bcd2c912055007aead7') in 0.019758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03_Sprite/Isometric Free Sample/Free Sample/Torch_Wall_01.png
+  artifactKey: Guid(c8fb05f2a29184b419dadb3213bf8e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/Isometric Free Sample/Free Sample/Torch_Wall_01.png using Guid(c8fb05f2a29184b419dadb3213bf8e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbf987dd1bdaeac49c1772fd34be18f') in 0.026583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03_Sprite/Isometric Free Sample/Free Sample/Pillar_03.png
+  artifactKey: Guid(871cc3588cda77046a1230ee4bbb51fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/Isometric Free Sample/Free Sample/Pillar_03.png using Guid(871cc3588cda77046a1230ee4bbb51fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9191aafd311901bd7c65354ae37b958a') in 0.014419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/03_Sprite/Isometric Free Sample/Free Sample/SmallChest_Top_02.png
+  artifactKey: Guid(ebf44b6c4465a594d804817515b11bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/Isometric Free Sample/Free Sample/SmallChest_Top_02.png using Guid(ebf44b6c4465a594d804817515b11bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24577ea239d2a413ab46b62ad16c1256') in 0.011142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/03_Sprite/Isometric Free Sample/Free Sample/DungeonCrawler_Example.png
+  artifactKey: Guid(93716eae854d190428cf797812fc8556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/Isometric Free Sample/Free Sample/DungeonCrawler_Example.png using Guid(93716eae854d190428cf797812fc8556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed41553133af2cdbb1ad42f334798813') in 0.013925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/03_Sprite/Isometric Free Sample/Free Sample/Floor_Corner_01.png
+  artifactKey: Guid(8f85d66117a0f274e906ac664d45483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/Isometric Free Sample/Free Sample/Floor_Corner_01.png using Guid(8f85d66117a0f274e906ac664d45483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827d80d0d2635b758345bf2b598336d0') in 0.015575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.135619 seconds.
+  path: Assets/03_Sprite/Isometric Free Sample/Free Sample/WallBrick_Tall_01.png
+  artifactKey: Guid(6316e200f71077d46a5f1c41864cfe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03_Sprite/Isometric Free Sample/Free Sample/WallBrick_Tall_01.png using Guid(6316e200f71077d46a5f1c41864cfe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c645f8579393c04d3dd747ad97d11cbd') in 0.011965 seconds 
